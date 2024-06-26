@@ -1,0 +1,17 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+    <test name="Regression">
+        <groups>
+            <run>
+             <!--   <include name="Smoke"/>-->
+                <exclude name="Smoke"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="Testng_package.Testng_demo"/>
+            <class name="Testng_package.Testng_2"/>
+            <class name="Testng_package.Testng_4"/>
+            <class name="Testng_package.Teastng_3"/>
+        </classes>
+    </test>
+</suite>

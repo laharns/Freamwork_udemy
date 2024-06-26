@@ -1,0 +1,25 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+    <parameter name="URL" value="https://qaclickacademy.com/"/>
+    <test name="Test">
+        <classes>
+            <class name="Testng_package.Testng_demo">
+            <methods>
+                 <include name="demo"/>
+          </methods>
+            </class>
+            <class name="Testng_package.Testng_2"/>
+            <class name="Testng_package.Testng_4"/>
+            <!-- Add more classes here -->
+        </classes>
+    </test>
+    <test name="car">
+        <classes>
+            <class name="Testng_package.Teastng_3">
+             <!--  <methods>
+                   <exclude name="mob.*"/>
+            </methods>-->
+            </class>
+        </classes>
+    </test>
+</suite>
