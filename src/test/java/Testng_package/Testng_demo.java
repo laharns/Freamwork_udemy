@@ -1,5 +1,6 @@
 package Testng_package;
 
+import org.testng.Assert;
 import org.testng.annotations.AfterSuite;
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.Test;
@@ -9,10 +10,12 @@ public class Testng_demo {
     @AfterTest
     public void lastexceut(){
         System.out.println("I will execute last");
+
     }
     @Test
     public void demo(){
         System.out.println("hello");
+        Assert.assertTrue(false);
     }
     @AfterSuite
     public void lastsuite(){

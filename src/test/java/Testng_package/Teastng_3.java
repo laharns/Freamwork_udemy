@@ -7,11 +7,14 @@ public class Teastng_3 {
     public void beforeclass(){
         System.out.println("before execute any method in the class");
     }
-    @Parameters({"URL"})
+
+    @Parameters({"URL","APIKey/username"})
     @Test
-    public void Weblogin(String urlname){
+    public void Weblogin(String urlname,String key){
         System.out.println("web login car");
         System.out.println(urlname);
+        System.out.println(key);
+
     }
     @BeforeMethod
     public void beforeevery(){
@@ -37,12 +40,29 @@ public class Teastng_3 {
     public void mobsignin(){
         System.out.println("Mobile signin car");
     }
-    @Test
-    public void mobsignout(){
+    //@Test(timeOut = 4000)
+    @Test(dataProvider = "getData")
+    public void mobsignout(String username,String password){
         System.out.println("Mobile signout car");
+        System.out.println(username);
+        System.out.println(password);
     }
     @Test(dependsOnMethods = {"Weblogin"})
     public void loginapi(){
         System.out.println("APi login car");
+    }
+    @DataProvider
+    public Object[][] getData(){
+       // System.out.println();
+    Object[][] data = new Object[3][2];
+    data[0][0] = "firstsetusername";
+    data[0][1] = "firstPassword";
+
+    data[1][0] = "secondsetusername";
+    data[1][1] ="secondpassword";
+
+    data[2][0] = "thirdsetusername";
+    data[2][1]= "thirdpassword";
+    return data;
     }
 }
