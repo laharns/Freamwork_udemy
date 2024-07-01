@@ -24,6 +24,7 @@
             <groupId>org.testng</groupId>
             <artifactId>testng</artifactId>
             <version>7.10.2</version>
+            <scope>test</scope>
         </dependency>
     </dependencies>
 
@@ -36,11 +37,12 @@
                 <configuration>
                     <suiteXmlFiles>
                         <suiteXmlFile>src/test/resources/testng.xml</suiteXmlFile>
+                        <suiteXmlFile>src/test/resources/testing_1.xml</suiteXmlFile>
+                        <suiteXmlFile>src/test/resources/testng2.xml</suiteXmlFile>
                     </suiteXmlFiles>
                     <reportsDirectory>test-output</reportsDirectory>
                 </configuration>
             </plugin>
         </plugins>
     </build>
-
 </project>

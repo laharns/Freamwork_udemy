@@ -1,8 +1,8 @@
-<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<!--<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">-->
 <suite name="Suite" parallel="tests" thread-count="10">
     <listeners>
         <listener class-name="Testng_package.Listeners"/>
-       <listener class-name="org.testng.reporters.EmailableReporter2"/>
+      <listener class-name="org.testng.reporters.EmailableReporter2"/>
         <listener class-name="org.testng.reporters.JUnitReportReporter"/>
         <listener class-name="org.testng.reporters.XMLReporter"/>
     </listeners>

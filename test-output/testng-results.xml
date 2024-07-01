@@ -2,41 +2,41 @@
 <testng-results ignored="0" total="11" passed="10" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-06-27T15:21:13 IST" name="Suite" finished-at="2024-06-27T15:21:13 IST" duration-ms="363">
+  <suite started-at="2024-07-01T11:37:44 IST" name="Suite" finished-at="2024-07-01T11:37:46 IST" duration-ms="1531">
     <groups>
       <group name="Smoke">
-        <method signature="Testng_2.day()[pri:0, instance:Testng_package.Testng_2@48fa0f47]" name="day" class="Testng_package.Testng_2"/>
-        <method signature="Testng_4.mobloginhome()[pri:0, instance:Testng_package.Testng_4@6ac13091]" name="mobloginhome" class="Testng_package.Testng_4"/>
-        <method signature="Teastng_3.moblogin()[pri:0, instance:Testng_package.Teastng_3@2667f029]" name="moblogin" class="Testng_package.Teastng_3"/>
+        <method signature="Testng_2.day()[pri:0, instance:Testng_package.Testng_2@54c562f7]" name="day" class="Testng_package.Testng_2"/>
+        <method signature="Testng_4.mobloginhome()[pri:0, instance:Testng_package.Testng_4@318ba8c8]" name="mobloginhome" class="Testng_package.Testng_4"/>
+        <method signature="Teastng_3.moblogin()[pri:0, instance:Testng_package.Teastng_3@4b0b0854]" name="moblogin" class="Testng_package.Teastng_3"/>
       </group> <!-- Smoke -->
     </groups>
-    <test started-at="2024-06-27T15:21:13 IST" name="Test" finished-at="2024-06-27T15:21:13 IST" duration-ms="312">
+    <test started-at="2024-07-01T11:37:44 IST" name="Test" finished-at="2024-07-01T11:37:45 IST" duration-ms="626">
       <class name="Testng_package.Testng_4">
-        <test-method signature="Webloginhome()[pri:0, instance:Testng_package.Testng_4@6ac13091]" started-at="2024-06-27T15:21:13 IST" name="Webloginhome" finished-at="2024-06-27T15:21:13 IST" duration-ms="5" status="PASS">
+        <test-method signature="Webloginhome()[pri:0, instance:Testng_package.Testng_4@318ba8c8]" started-at="2024-07-01T11:37:44 IST" name="Webloginhome" finished-at="2024-07-01T11:37:44 IST" duration-ms="11" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Webloginhome -->
-        <test-method signature="loginapihome()[pri:0, instance:Testng_package.Testng_4@6ac13091]" started-at="2024-06-27T15:21:13 IST" name="loginapihome" finished-at="2024-06-27T15:21:13 IST" duration-ms="88" status="PASS">
+        <test-method signature="loginapihome()[pri:0, instance:Testng_package.Testng_4@318ba8c8]" started-at="2024-07-01T11:37:45 IST" name="loginapihome" finished-at="2024-07-01T11:37:45 IST" duration-ms="13" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginapihome -->
-        <test-method signature="mobloginhome()[pri:0, instance:Testng_package.Testng_4@6ac13091]" started-at="2024-06-27T15:21:13 IST" name="mobloginhome" finished-at="2024-06-27T15:21:13 IST" duration-ms="16" status="PASS">
+        <test-method signature="mobloginhome()[pri:0, instance:Testng_package.Testng_4@318ba8c8]" started-at="2024-07-01T11:37:45 IST" name="mobloginhome" finished-at="2024-07-01T11:37:45 IST" duration-ms="2" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- mobloginhome -->
       </class> <!-- Testng_package.Testng_4 -->
       <class name="Testng_package.Testng_2">
-        <test-method is-config="true" signature="prereqsuite()[pri:0, instance:Testng_package.Testng_2@48fa0f47]" started-at="2024-06-27T15:21:13 IST" name="prereqsuite" finished-at="2024-06-27T15:21:13 IST" duration-ms="3" status="PASS">
+        <test-method is-config="true" signature="prereqsuite()[pri:0, instance:Testng_package.Testng_2@54c562f7]" started-at="2024-07-01T11:37:44 IST" name="prereqsuite" finished-at="2024-07-01T11:37:44 IST" duration-ms="20" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- prereqsuite -->
-        <test-method signature="day()[pri:0, instance:Testng_package.Testng_2@48fa0f47]" started-at="2024-06-27T15:21:13 IST" name="day" finished-at="2024-06-27T15:21:13 IST" duration-ms="1" status="PASS">
+        <test-method signature="day()[pri:0, instance:Testng_package.Testng_2@54c562f7]" started-at="2024-07-01T11:37:44 IST" name="day" finished-at="2024-07-01T11:37:44 IST" duration-ms="19" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- day -->
       </class> <!-- Testng_package.Testng_2 -->
       <class name="Testng_package.Testng_demo">
-        <test-method signature="demo()[pri:0, instance:Testng_package.Testng_demo@1ffe63b9]" started-at="2024-06-27T15:21:13 IST" name="demo" finished-at="2024-06-27T15:21:13 IST" duration-ms="34" status="FAIL">
+        <test-method signature="demo()[pri:0, instance:Testng_package.Testng_demo@4445629]" started-at="2024-07-01T11:37:44 IST" name="demo" finished-at="2024-07-01T11:37:44 IST" duration-ms="36" status="FAIL">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[expected [true] but found [false]]]>
@@ -74,31 +74,31 @@ at java.base/java.lang.Thread.run(Thread.java:1570)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- demo -->
-        <test-method is-config="true" signature="lastexceut()[pri:0, instance:Testng_package.Testng_demo@1ffe63b9]" started-at="2024-06-27T15:21:13 IST" name="lastexceut" finished-at="2024-06-27T15:21:13 IST" duration-ms="15" status="PASS">
+        <test-method is-config="true" signature="lastexceut()[pri:0, instance:Testng_package.Testng_demo@4445629]" started-at="2024-07-01T11:37:45 IST" name="lastexceut" finished-at="2024-07-01T11:37:45 IST" duration-ms="2" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- lastexceut -->
       </class> <!-- Testng_package.Testng_demo -->
     </test> <!-- Test -->
-    <test started-at="2024-06-27T15:21:13 IST" name="car" finished-at="2024-06-27T15:21:13 IST" duration-ms="363">
+    <test started-at="2024-07-01T11:37:44 IST" name="car" finished-at="2024-07-01T11:37:46 IST" duration-ms="1531">
       <class name="Testng_package.Teastng_3">
-        <test-method is-config="true" signature="firstsuite()[pri:0, instance:Testng_package.Teastng_3@2667f029]" started-at="2024-06-27T15:21:13 IST" name="firstsuite" finished-at="2024-06-27T15:21:13 IST" duration-ms="34" status="PASS">
+        <test-method is-config="true" signature="firstsuite()[pri:0, instance:Testng_package.Teastng_3@4b0b0854]" started-at="2024-07-01T11:37:44 IST" name="firstsuite" finished-at="2024-07-01T11:37:44 IST" duration-ms="35" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- firstsuite -->
-        <test-method is-config="true" signature="beforeclass()[pri:0, instance:Testng_package.Teastng_3@2667f029]" started-at="2024-06-27T15:21:13 IST" name="beforeclass" finished-at="2024-06-27T15:21:13 IST" duration-ms="6" status="PASS">
+        <test-method is-config="true" signature="beforeclass()[pri:0, instance:Testng_package.Teastng_3@4b0b0854]" started-at="2024-07-01T11:37:44 IST" name="beforeclass" finished-at="2024-07-01T11:37:44 IST" duration-ms="3" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeclass -->
-        <test-method is-config="true" signature="beforeevery()[pri:0, instance:Testng_package.Teastng_3@2667f029]" started-at="2024-06-27T15:21:13 IST" name="beforeevery" finished-at="2024-06-27T15:21:13 IST" duration-ms="4" status="PASS">
+        <test-method is-config="true" signature="beforeevery()[pri:0, instance:Testng_package.Teastng_3@4b0b0854]" started-at="2024-07-01T11:37:44 IST" name="beforeevery" finished-at="2024-07-01T11:37:44 IST" duration-ms="3" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeevery -->
-        <test-method signature="Weblogin(java.lang.String,java.lang.String)[pri:0, instance:Testng_package.Teastng_3@2667f029]" started-at="2024-06-27T15:21:13 IST" name="Weblogin" finished-at="2024-06-27T15:21:13 IST" duration-ms="8" status="PASS">
+        <test-method signature="Weblogin(java.lang.String,java.lang.String)[pri:0, instance:Testng_package.Teastng_3@4b0b0854]" started-at="2024-07-01T11:37:44 IST" name="Weblogin" finished-at="2024-07-01T11:37:44 IST" duration-ms="9" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[https://qaclickacademy.com/]]>
+                <![CDATA[carloan.com]]>
               </value>
             </param>
             <param index="1">
@@ -110,27 +110,27 @@ at java.base/java.lang.Thread.run(Thread.java:1570)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Weblogin -->
-        <test-method is-config="true" signature="Aftereevery()[pri:0, instance:Testng_package.Teastng_3@2667f029]" started-at="2024-06-27T15:21:13 IST" name="Aftereevery" finished-at="2024-06-27T15:21:13 IST" duration-ms="10" status="PASS">
+        <test-method is-config="true" signature="Aftereevery()[pri:0, instance:Testng_package.Teastng_3@4b0b0854]" started-at="2024-07-01T11:37:44 IST" name="Aftereevery" finished-at="2024-07-01T11:37:44 IST" duration-ms="3" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Aftereevery -->
-        <test-method is-config="true" signature="beforeevery()[pri:0, instance:Testng_package.Teastng_3@2667f029]" started-at="2024-06-27T15:21:13 IST" name="beforeevery" finished-at="2024-06-27T15:21:13 IST" duration-ms="4" status="PASS">
+        <test-method is-config="true" signature="beforeevery()[pri:0, instance:Testng_package.Teastng_3@4b0b0854]" started-at="2024-07-01T11:37:44 IST" name="beforeevery" finished-at="2024-07-01T11:37:44 IST" duration-ms="120" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeevery -->
-        <test-method signature="moblogin()[pri:0, instance:Testng_package.Teastng_3@2667f029]" started-at="2024-06-27T15:21:13 IST" name="moblogin" finished-at="2024-06-27T15:21:13 IST" duration-ms="7" status="PASS">
+        <test-method signature="moblogin()[pri:0, instance:Testng_package.Teastng_3@4b0b0854]" started-at="2024-07-01T11:37:44 IST" name="moblogin" finished-at="2024-07-01T11:37:44 IST" duration-ms="3" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- moblogin -->
-        <test-method is-config="true" signature="Aftereevery()[pri:0, instance:Testng_package.Teastng_3@2667f029]" started-at="2024-06-27T15:21:13 IST" name="Aftereevery" finished-at="2024-06-27T15:21:13 IST" duration-ms="35" status="PASS">
+        <test-method is-config="true" signature="Aftereevery()[pri:0, instance:Testng_package.Teastng_3@4b0b0854]" started-at="2024-07-01T11:37:44 IST" name="Aftereevery" finished-at="2024-07-01T11:37:44 IST" duration-ms="4" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Aftereevery -->
-        <test-method is-config="true" signature="beforeevery()[pri:0, instance:Testng_package.Teastng_3@2667f029]" started-at="2024-06-27T15:21:13 IST" name="beforeevery" finished-at="2024-06-27T15:21:13 IST" duration-ms="10" status="PASS">
+        <test-method is-config="true" signature="beforeevery()[pri:0, instance:Testng_package.Teastng_3@4b0b0854]" started-at="2024-07-01T11:37:44 IST" name="beforeevery" finished-at="2024-07-01T11:37:44 IST" duration-ms="15" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeevery -->
-        <test-method signature="mobsignout(java.lang.String,java.lang.String)[pri:0, instance:Testng_package.Teastng_3@2667f029]" started-at="2024-06-27T15:21:13 IST" name="mobsignout" data-provider="getData" finished-at="2024-06-27T15:21:13 IST" duration-ms="53" status="PASS">
+        <test-method signature="mobsignout(java.lang.String,java.lang.String)[pri:0, instance:Testng_package.Teastng_3@4b0b0854]" started-at="2024-07-01T11:37:44 IST" name="mobsignout" data-provider="getData" finished-at="2024-07-01T11:37:44 IST" duration-ms="11" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -146,15 +146,15 @@ at java.base/java.lang.Thread.run(Thread.java:1570)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- mobsignout -->
-        <test-method is-config="true" signature="Aftereevery()[pri:0, instance:Testng_package.Teastng_3@2667f029]" started-at="2024-06-27T15:21:13 IST" name="Aftereevery" finished-at="2024-06-27T15:21:13 IST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="Aftereevery()[pri:0, instance:Testng_package.Teastng_3@4b0b0854]" started-at="2024-07-01T11:37:44 IST" name="Aftereevery" finished-at="2024-07-01T11:37:45 IST" duration-ms="184" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Aftereevery -->
-        <test-method is-config="true" signature="beforeevery()[pri:0, instance:Testng_package.Teastng_3@2667f029]" started-at="2024-06-27T15:21:13 IST" name="beforeevery" finished-at="2024-06-27T15:21:13 IST" duration-ms="2" status="PASS">
+        <test-method is-config="true" signature="beforeevery()[pri:0, instance:Testng_package.Teastng_3@4b0b0854]" started-at="2024-07-01T11:37:45 IST" name="beforeevery" finished-at="2024-07-01T11:37:45 IST" duration-ms="17" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeevery -->
-        <test-method signature="mobsignout(java.lang.String,java.lang.String)[pri:0, instance:Testng_package.Teastng_3@2667f029]" started-at="2024-06-27T15:21:13 IST" name="mobsignout" data-provider="getData" finished-at="2024-06-27T15:21:13 IST" duration-ms="1" status="PASS">
+        <test-method signature="mobsignout(java.lang.String,java.lang.String)[pri:0, instance:Testng_package.Teastng_3@4b0b0854]" started-at="2024-07-01T11:37:45 IST" name="mobsignout" data-provider="getData" finished-at="2024-07-01T11:37:45 IST" duration-ms="61" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -170,15 +170,15 @@ at java.base/java.lang.Thread.run(Thread.java:1570)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- mobsignout -->
-        <test-method is-config="true" signature="Aftereevery()[pri:0, instance:Testng_package.Teastng_3@2667f029]" started-at="2024-06-27T15:21:13 IST" name="Aftereevery" finished-at="2024-06-27T15:21:13 IST" duration-ms="2" status="PASS">
+        <test-method is-config="true" signature="Aftereevery()[pri:0, instance:Testng_package.Teastng_3@4b0b0854]" started-at="2024-07-01T11:37:45 IST" name="Aftereevery" finished-at="2024-07-01T11:37:45 IST" duration-ms="3" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Aftereevery -->
-        <test-method is-config="true" signature="beforeevery()[pri:0, instance:Testng_package.Teastng_3@2667f029]" started-at="2024-06-27T15:21:13 IST" name="beforeevery" finished-at="2024-06-27T15:21:13 IST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="beforeevery()[pri:0, instance:Testng_package.Teastng_3@4b0b0854]" started-at="2024-07-01T11:37:45 IST" name="beforeevery" finished-at="2024-07-01T11:37:45 IST" duration-ms="2" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeevery -->
-        <test-method signature="mobsignout(java.lang.String,java.lang.String)[pri:0, instance:Testng_package.Teastng_3@2667f029]" started-at="2024-06-27T15:21:13 IST" name="mobsignout" data-provider="getData" finished-at="2024-06-27T15:21:13 IST" duration-ms="6" status="PASS">
+        <test-method signature="mobsignout(java.lang.String,java.lang.String)[pri:0, instance:Testng_package.Teastng_3@4b0b0854]" started-at="2024-07-01T11:37:45 IST" name="mobsignout" data-provider="getData" finished-at="2024-07-01T11:37:45 IST" duration-ms="5" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -194,29 +194,29 @@ at java.base/java.lang.Thread.run(Thread.java:1570)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- mobsignout -->
-        <test-method is-config="true" signature="Aftereevery()[pri:0, instance:Testng_package.Teastng_3@2667f029]" started-at="2024-06-27T15:21:13 IST" name="Aftereevery" finished-at="2024-06-27T15:21:13 IST" duration-ms="2" status="PASS">
+        <test-method is-config="true" signature="Aftereevery()[pri:0, instance:Testng_package.Teastng_3@4b0b0854]" started-at="2024-07-01T11:37:45 IST" name="Aftereevery" finished-at="2024-07-01T11:37:45 IST" duration-ms="2" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Aftereevery -->
-        <test-method is-config="true" signature="beforeevery()[pri:0, instance:Testng_package.Teastng_3@2667f029]" started-at="2024-06-27T15:21:13 IST" name="beforeevery" finished-at="2024-06-27T15:21:13 IST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="beforeevery()[pri:0, instance:Testng_package.Teastng_3@4b0b0854]" started-at="2024-07-01T11:37:45 IST" name="beforeevery" finished-at="2024-07-01T11:37:45 IST" duration-ms="2" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeevery -->
-        <test-method signature="loginapi()[pri:0, instance:Testng_package.Teastng_3@2667f029]" started-at="2024-06-27T15:21:13 IST" name="loginapi" finished-at="2024-06-27T15:21:13 IST" depends-on-methods="Testng_package.Teastng_3.Weblogin" duration-ms="2" status="PASS">
+        <test-method signature="loginapi()[pri:0, instance:Testng_package.Teastng_3@4b0b0854]" started-at="2024-07-01T11:37:45 IST" name="loginapi" finished-at="2024-07-01T11:37:45 IST" depends-on-methods="Testng_package.Teastng_3.Weblogin" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginapi -->
-        <test-method is-config="true" signature="Aftereevery()[pri:0, instance:Testng_package.Teastng_3@2667f029]" started-at="2024-06-27T15:21:13 IST" name="Aftereevery" finished-at="2024-06-27T15:21:13 IST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="Aftereevery()[pri:0, instance:Testng_package.Teastng_3@4b0b0854]" started-at="2024-07-01T11:37:45 IST" name="Aftereevery" finished-at="2024-07-01T11:37:46 IST" duration-ms="792" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Aftereevery -->
-        <test-method is-config="true" signature="Afterclass()[pri:0, instance:Testng_package.Teastng_3@2667f029]" started-at="2024-06-27T15:21:13 IST" name="Afterclass" finished-at="2024-06-27T15:21:13 IST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="Afterclass()[pri:0, instance:Testng_package.Teastng_3@4b0b0854]" started-at="2024-07-01T11:37:46 IST" name="Afterclass" finished-at="2024-07-01T11:37:46 IST" duration-ms="4" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Afterclass -->
       </class> <!-- Testng_package.Teastng_3 -->
       <class name="Testng_package.Testng_demo">
-        <test-method is-config="true" signature="lastsuite()[pri:0, instance:Testng_package.Testng_demo@1ffe63b9]" started-at="2024-06-27T15:21:13 IST" name="lastsuite" finished-at="2024-06-27T15:21:13 IST" duration-ms="2" status="PASS">
+        <test-method is-config="true" signature="lastsuite()[pri:0, instance:Testng_package.Testng_demo@4445629]" started-at="2024-07-01T11:37:46 IST" name="lastsuite" finished-at="2024-07-01T11:37:46 IST" duration-ms="2" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- lastsuite -->

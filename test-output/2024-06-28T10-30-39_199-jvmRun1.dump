@@ -1,4 +1,4 @@
-# Created at 2024-06-27T15:10:39.715
+# Created at 2024-06-28T10:30:40.373
 org.apache.maven.surefire.api.testset.TestSetFailedException: Suite file D:\Java_projects\Udemy_freamwork\src\test\resources\testng.xml is not a valid file
 	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.locateTestSets(TestNGXmlTestSuite.java:89)
 	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:112)
