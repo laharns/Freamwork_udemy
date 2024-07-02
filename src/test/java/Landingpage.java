@@ -12,8 +12,10 @@ public class Landingpage {
     WebDriver driver ;
 
     public Landingpage(WebDriver driver){
+        //super(driver);
         this.driver = driver;
         PageFactory.initElements(driver,this);
+
     }
     //WebElement useremail =  driver.findElement(By.xpath("//input[@id='userEmail']"));
 
@@ -26,10 +28,13 @@ public class Landingpage {
     @FindBy(id = "login")
     WebElement login;
 
-    public void loginApplication(String email,String Password){
+    public Productcatlog loginApplication(String email,String Password){
         userEmail.sendKeys(email);
         userPassword.sendKeys(Password);
         login.click();
+        Productcatlog productcatlog = new Productcatlog(driver);
+        return  productcatlog;
+
     }
     public void goTo(){
         driver.get("https://rahulshettyacademy.com/client");
