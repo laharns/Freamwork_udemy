@@ -1,11 +1,14 @@
+package rahulsheety.pageobjects;
+
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
+import rahulsheety.Abesrtcomponet.Abesrtcomponet;
 
 import java.util.List;
 
-public class cartpage extends Abesrtcomponet {
+public class CartPage extends Abesrtcomponet {
     WebDriver driver;
     @FindBy(css = ".totalRow button")
     WebElement checkoutEle;
@@ -13,7 +16,7 @@ public class cartpage extends Abesrtcomponet {
     @FindBy(css = ".cartSection h3")
     private List<WebElement> producttitle;
 
-    public cartpage(WebDriver driver){
+    public CartPage(WebDriver driver){
         super(driver);
         this.driver = driver;
         PageFactory.initElements(driver,this);
@@ -24,9 +27,8 @@ public class cartpage extends Abesrtcomponet {
         return match;
 
     }
-    public Chekoutpage  gotoChekoutpage(){
+    public ChekoutPage gotoChekoutpage(){
         checkoutEle.click();
-        return new Chekoutpage();
+        return new ChekoutPage(driver);
     }
-
 }

@@ -1,18 +1,16 @@
-import org.openqa.selenium.By;
+package rahulsheety.pageobjects;
+
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
-import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
+import rahulsheety.Abesrtcomponet.Abesrtcomponet;
 
-import java.time.Duration;
-
-public class Landingpage {
-
+public class LandingPage extends Abesrtcomponet {
     WebDriver driver ;
 
-    public Landingpage(WebDriver driver){
-        //super(driver);
+    public LandingPage(WebDriver driver){
+        super(driver);
         this.driver = driver;
         PageFactory.initElements(driver,this);
 
@@ -28,7 +26,10 @@ public class Landingpage {
     @FindBy(id = "login")
     WebElement login;
 
-    public Productcatlog loginApplication(String email,String Password){
+    @FindBy(css = "[class*='flyInOut']")
+    WebElement errrMessage;
+
+    public Productcatlog loginApplication(String email, String Password){
         userEmail.sendKeys(email);
         userPassword.sendKeys(Password);
         login.click();
@@ -36,9 +37,13 @@ public class Landingpage {
         return  productcatlog;
 
     }
+
+    public String  getErrorMessage(){
+        waitForWebElementToAppear(errrMessage);
+       return errrMessage.getText();
+    }
     public void goTo(){
         driver.get("https://rahulshettyacademy.com/client");
 
     }
-
 }
