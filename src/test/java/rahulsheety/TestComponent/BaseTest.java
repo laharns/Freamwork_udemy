@@ -3,10 +3,12 @@ package rahulsheety.TestComponent;
 import com.fasterxml.jackson.core.type.TypeReference;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import org.apache.commons.io.FileUtils;
+import org.openqa.selenium.Dimension;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.testng.annotations.AfterMethod;
@@ -37,8 +39,13 @@ public class BaseTest {
         //String browserName = prop.getProperty("Browser");
       //  prop.getProperty("Browser");
 
-        if (browserName.equalsIgnoreCase("Chrome")) {
-            driver = new ChromeDriver();
+        if (browserName.contains("Chrome")) {
+            ChromeOptions options = new ChromeOptions();
+            if (browserName.contains("headless")){
+                options.addArguments("headless");
+            }
+            driver = new ChromeDriver(options);
+            driver.manage().window().setSize(new Dimension(1440,900));
         } else if (browserName.equalsIgnoreCase("firefox")) {
             driver = new FirefoxDriver();
 
@@ -65,9 +72,12 @@ public class BaseTest {
 public String getScreenshot(String testCasesName,WebDriver driver)throws IOException{
     TakesScreenshot ts = (TakesScreenshot) driver;
     File source = ts.getScreenshotAs(OutputType.FILE);
-    File file = new File(System.getProperty("user.dir")+"//reports//"+testCasesName+".png");
+  //  File file = new File(System.getProperty("user.dir")+"//reports//"+testCasesName+".png");
+    String destinationPath = System.getProperty("user.dir") + "//reports//" + testCasesName + ".png";
+    File file = new File(destinationPath);
     FileUtils.copyFile(source,file);
-    return System.getProperty("user.dir")+"//reports//"+testCasesName+".png";
+    return destinationPath;
+   //return System.getProperty("user.dir")+"//reports//"+testCasesName+".png";
 }
     @BeforeMethod (alwaysRun = true)
     public LandingPage launchApplication() throws IOException {

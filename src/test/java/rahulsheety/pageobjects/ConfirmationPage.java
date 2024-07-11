@@ -17,6 +17,8 @@ public class ConfirmationPage extends Abesrtcomponet {
     WebElement confirmationMessage;
 
     public String getConfirmatioMessage(){
+       //ChekoutPage cp = new ChekoutPage(driver);
+        //cp.submit.click();
         return confirmationMessage.getText();
     }
 
